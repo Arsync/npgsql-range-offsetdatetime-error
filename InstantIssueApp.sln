@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30717.126
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantIssueApp", "InstantIssueApp\InstantIssueApp.csproj", "{BFD7D70D-EA66-4A73-9C9D-E1EEF61F6FC4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InstantIssueApp", "InstantIssueApp\InstantIssueApp.csproj", "{BFD7D70D-EA66-4A73-9C9D-E1EEF61F6FC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstantIssueApp.Hosted", "InstantIssueApp.Hosted\InstantIssueApp.Hosted.csproj", "{E5BE354D-D914-4BB7-97D0-3A79D1FBC765}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{BFD7D70D-EA66-4A73-9C9D-E1EEF61F6FC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BFD7D70D-EA66-4A73-9C9D-E1EEF61F6FC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BFD7D70D-EA66-4A73-9C9D-E1EEF61F6FC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5BE354D-D914-4BB7-97D0-3A79D1FBC765}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5BE354D-D914-4BB7-97D0-3A79D1FBC765}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5BE354D-D914-4BB7-97D0-3A79D1FBC765}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5BE354D-D914-4BB7-97D0-3A79D1FBC765}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
